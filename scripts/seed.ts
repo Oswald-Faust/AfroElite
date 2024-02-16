@@ -6,8 +6,8 @@ async function main() {
   try {
     await database.category.createMany({
       data: [
-        { name: "SEO" },
-        { name: "Rédaction Web" },
+        { name: "Français" },
+        { name: "Rédaction Web & SEO" },
       ]
     });
 
